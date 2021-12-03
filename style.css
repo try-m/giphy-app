@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+.header {
+    color: white;
+    font-size: 50px;
+}
+
+.header-container {
+    margin: 5% auto 0px; 
+    text-align: center;
+}
+
+.search-field {
+    outline: none;
+    padding: 10px;
+    width: 30%;
+}
+
+.search-button {
+    background-color: orange; 
+    color: white; 
+    padding: 10px 30px;
+    border: 1px solid orange;
+    transition: background-color .25s;
+}
+
+.search-button:hover{
+    background-color: orangered;
+    border-color: orangered; 
+    cursor: pointer;
+    transition: background-color .25s;
+}
+
+img {
+    height: 40%; 
+    width: 40%; 
+    margin: 50px auto; 
+    display: block;
+}
+
+.error-message {
+    text-align: center;
+    color: white;
+}
